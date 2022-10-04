@@ -1,3 +1,5 @@
+Nick's copy, updated to run on Windows by using rivet_console via wsl
+
 # Multiparameter Persistence Landscapes
 
 Python scripts for the computation of [multiparameter persistence landscapes](http://jmlr.org/papers/v21/19-054.html) for 2 parameter persistence modules from the .rivet files computed by [RIVET](https://github.com/rivetTDA/rivet#rivet). The scripts make use of the [pyrivet](https://github.com/rivetTDA/rivet-python) package (a Python API for interacting with [RIVET](https://github.com/rivetTDA/rivet#rivet)).
