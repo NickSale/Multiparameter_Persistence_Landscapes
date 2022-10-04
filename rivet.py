@@ -216,7 +216,8 @@ def barcodes(bytes, slices):
         with open(os.path.join(dir, 'slices.txt'), 'wt') as slice_temp:
             for angle, offset in slices:
                 slice_temp.write("%s %s\n" % (angle, offset))
-        return barcodes_file(precomp.name, slice_temp.name)
+        return barcodes_file('/mnt/'+'/'.join(precomp.name.replace("C:", "c").split('\\')),
+                    '/mnt/'+'/'.join(slice_temp.name.replace("C:", "c").split('\\')))
 
 
 def _rivet_name(base, homology, x, y):
